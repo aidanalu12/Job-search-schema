@@ -7,6 +7,7 @@
         public DateTime DateApplication { get; set;}
         public string ApplicationMethod { get; set;}
         public string ApplicationStatus { get; set;}
+        public int JobpostingsId { get; set;}
         public Jobpostings Jobpostings { get; set; }
     }
 }
